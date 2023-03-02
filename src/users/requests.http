@@ -1,0 +1,9 @@
+### Create a new user
+
+POST http://192.168.47.128:3003/auth/signup
+content-type: application/json
+
+{
+    "email": "baxtiyor@example.com",
+    "password": "Baxtiyor7"
+}
